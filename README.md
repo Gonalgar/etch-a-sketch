@@ -28,7 +28,7 @@ To view or modify the project locally:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/etch-a-sketch.git
+   git clone https://github.com/gonalgar/etch-a-sketch.git
 2. Navigate to the project directory:
     ```bash
     cd etch-a-sketch
