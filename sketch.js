@@ -50,6 +50,10 @@ newGridButton.addEventListener('click', (e) => {
     let size = prompt('Enter the size of the new grid');
 
     if (size) {
+        if (size > 30) {
+            alert('The maximum grid size is 30. The size has been adjusted to 30.');
+        }
+        size = Math.min(size, 30);
         let grid = document.querySelector('.grid');
         while (grid.firstChild) {
             grid.removeChild(grid.firstChild);
